@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Mukta';
+}
+
+.dark-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  background-color: black;
+  padding: 3px 25px;
+}
+
+.arrivals {
+  font-size: 16px;
+}
+
+.dark-area .shop-now {
+  color: #fff;
+}
+
+.dark-area .fa-x {
+  font-size: 12px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1% 2%;
+}
+
+.nav-links {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-links li {
+  list-style: none;
+}
+.nav-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.shop-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1% 2%;
+  border-top: 1px solid rgb(0, 0, 0, 0.5);
+  border-bottom: 1px solid rgb(0, 0, 0, 0.5);
+}
+
+.shop-content a {
+  text-decoration: none;
+  color: #000;
+}
+
+.shop-content li {
+  list-style: none;
+}
